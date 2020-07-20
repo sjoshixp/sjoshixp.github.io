@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Safari-cookie-in-iframe : Safari 3rd party cookie in iframe workaround" />
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <title>Demo Page - Safari-cookie-in-iframe</title>
+</head>
+<body>
+    <!-- HEADER -->
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+        <section id="main_content" class="inner">
+            <h3>Main site which uses iframe with 3rd party content</h3>
+            
+            <iframe src="https://icmvcapp.azurewebsites.net/Home/Index" width="50%" height="400" frameborder="2"></iframe>
+            <!--<iframe src="https://framedsite.azurewebsites.net/framed.html" width="50%" height="400" frameborder="2"></iframe>-->
+            <!--<iframe src="https://epmqa.esmsolutions.com/ICClient/Home/logon" width="50%" height="400" frameborder="2"></iframe>-->
+            <br />
+            see, you don't have cookies :(
+            <br />
+            <a href="index-fixed.html">fixed page</a>
+            <br />
+        </section>
+    </div>
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+        <footer class="inner">
+            <p class="copyright">Safari-cookie-in-iframe maintained by <a href="https://github.com/vitr">vitr</a></p>
+            <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+        </footer>
+    </div>
+</body>
+</html>
